@@ -1,0 +1,93 @@
+/* Ensure the navbar height is accounted for */
+.navbar {
+  height: 70px; /* Adjust based on your navbar height */
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f5f5f5;
+  margin-top: 70px; /* Adjust this if necessary to push content below the fixed navbar */
+}
+
+.chat-header {
+  background-color: #ff6f61;
+  padding: 10px 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 70px; /* Ensure this is below the navbar */
+  width: 100%;
+  z-index: 1000; /* Ensure it stays on top of other content */
+}
+
+.chat-header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.chat-header .btn {
+  background-color: #fff;
+  color: #ff6f61;
+  border: none;
+}
+
+.chat-window {
+  flex-grow: 1;
+  padding: 20px;
+  padding-top: 90px; /* Space for the fixed header */
+  overflow-y: auto;
+  background-color: #f8f9fa;
+  height: calc(100vh - 90px - 50px); /* Adjust based on header and input bar height */
+}
+
+.chat-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-message {
+  margin-bottom: 10px;
+  border-radius: 10px;
+  max-width: 75%;
+}
+
+.chat-message.user {
+  align-self: flex-end;
+  background-color: #007bff;
+  color: white;
+}
+
+.chat-message.bot {
+  align-self: flex-start;
+  background-color: #e9ecef;
+  color: black;
+}
+
+.chat-input {
+  padding: 10px 20px;
+  border-top: 1px solid #dee2e6;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it stays on top of other content */
+}
+
+.chat-input .input-group {
+  display: flex;
+  align-items: center;
+}
+
+.chat-input .form-control {
+  border-radius: 20px 0 0 20px;
+}
+
+.chat-input .btn {
+  border-radius: 0 20px 20px 0;
+  background-color: #ff6f61;
+  border: none;
+}

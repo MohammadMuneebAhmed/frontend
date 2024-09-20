@@ -1,0 +1,46 @@
+.navbar {
+  background-color: rgba(0, 0, 0, 0.7);
+  font-weight: 500;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.nav-link {
+  color: white; 
+}
+
+.nav-link:hover {
+  color: rgb(158, 153, 153); 
+}
+
+.navbar-brand {
+  color: white; 
+}
+
+.navbar-brand:hover {
+  color: rgb(158, 153, 153); 
+}
+
+.navbar-toggler-icon {
+  color: white; 
+}
+
+.navbar-collapse {
+  justify-content: center; /* Center items horizontally */
+}
+
+.navbar-nav {
+  flex-direction: row; 
+}
+
+.nav-item {
+  margin-left: 15px; 
+  margin-right: 15px;
+}
+
+/* Center the dropdown */
+.dropdown {
+  margin-left: auto; /* Push dropdown to the right */
+}

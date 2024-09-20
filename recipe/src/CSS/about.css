@@ -1,0 +1,54 @@
+/* about.css */
+.about-container {
+    margin-top: 25px;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin-top: 2.5rem;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .about-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #ff6f61;
+  }
+  
+  .about-content h2 {
+    font-size: 1.75rem;
+    margin-top: 2rem;
+    color: #ff6f61;
+  }
+  
+  .about-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 1rem 0;
+  }
+  
+  .about-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .about-content li {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 0.5rem 0;
+  }
+  
+  .about-content a {
+    color: #ff6f61;
+    text-decoration: none;
+  }
+  
+  .about-content a:hover {
+    text-decoration: underline;
+  }
+  
